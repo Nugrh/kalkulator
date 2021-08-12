@@ -1,6 +1,6 @@
 package com.project;
 
-import java.util.Scanner;
+import java.util.Scanner; // import input buat user
 
 public class Main {
 
@@ -10,13 +10,13 @@ public class Main {
 
         System.out.println("------<CALCULATOR>------");
 
-        int num1, num2, result;
-        char op;
+        int num1, num2, result; // deklarasiin variabel input
+        char op; // variabel operator
 
 
         System.out.print("Input number (x + y): ");
         num1 = sc.nextInt();
-        op = sc.next().charAt(0);
+        op = sc.next().charAt(0);   // input dari user
         num2 = sc.nextInt();
 
         System.out.println("\n---Result---");
@@ -39,10 +39,7 @@ public class Main {
             result = num1 / num2;
             System.out.printf("%d %% %d = %d\n", num1, num2, result);
         } else {
-            System.err.println("Your input is not correct!");
+            System.err.println("Your input is incorrect!");
         }
-
-
-
     }
 }
