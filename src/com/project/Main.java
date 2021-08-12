@@ -14,13 +14,9 @@ public class Main {
         char op;
 
 
-        System.out.print("Enter the first number: ");
+        System.out.print("Input number (x + y): ");
         num1 = sc.nextInt();
-
-        System.out.print("Choose 1 operator(+ - * / %): ");
         op = sc.next().charAt(0);
-
-        System.out.print("Enter the second number: ");
         num2 = sc.nextInt();
 
         System.out.println("\n---Result---");
