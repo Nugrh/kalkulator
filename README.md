@@ -1,3 +1,3 @@
 # kalkulator
 
-kalkulator berbasis if else
+latihan if... else if... else
